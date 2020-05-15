@@ -1,0 +1,10 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: order-service
+opentracing: 
+  jaeger:
+    udp-sender:
+      host: jaeger-agent.default.svc.cluster.local
+      port: 6831
